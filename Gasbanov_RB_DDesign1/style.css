@@ -1,0 +1,78 @@
+
+.wrapper ul {
+  display: flex;
+  flex-direction: column;
+  background: #CCCCCC;
+
+  margin: auto; /* Выравниваем по центру */
+  justify-content: space-between;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  padding-left: 0;
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  list-style-type:none;
+  width: 360px;
+  height: 196px;
+  
+  }
+
+.wrapper li {
+  text-align: left;
+  position: static;
+  height: 16px;
+  left: 0;
+  right: 20px;
+  padding: 10px 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+  
+ 
+  color: #000000;
+
+}
+
+
+
+li:hover{
+  background-color: #9C9C9C;
+  transition:  background-color 0.7s;
+}
+
+li:active{
+ 
+  color:blue;
+  font-weight:900;
+  transition: all .2s;
+
+}
+li:not(.is-active):hover{
+  background: #CCCCCC;
+
+ 
+}
+
+.wrapper li:nth-child(3) {
+
+height: 35px;
+
+
+}
+
+li:first-child{
+  border-radius: 10px 10px 0 0;
+}
+
+li:last-child{
+  border-radius:  0 0 10px 10px;
+}
+
+
+
+#active {
+    background-color: rgb(21, 138, 30);
+}
