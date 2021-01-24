@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormforDD</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <div class="form-container">
+       <form action="">
+        <h2>Регистрация</h2>
+        <hr>
+           <div class="form-field input-right">
+               <label class="email" for="email">E-mail</label>
+               <input type="email" name="email" id="email" placeholder="example@site.domain">
+           </div>
+           <div class="form-field input-right">
+            <label for="pass">Пароль</label>
+            <input type="password" name="pass" id="pass" placeholder="password">
+           </div>
+           <div class="form-field input-right">
+            <label for="pass">Повторите пароль</label>
+            <input type="password" name="pass" id="repeatpass" placeholder="password">
+        </div>
+           
+        <div class="form-field multi-input">
+            <label for="fullname">ФИО</label>
+            <input type="text" name="full-name" id="name" placeholder="Игорев Игорь Игоревич">
+        </div>
+        <div class="form-field multi-input">
+            <label for="fullname">Возраст</label>
+            <input type="number" name="age" id="age" placeholder="18">
+        </div>
+        <hr>
+        <div class="form-field input-right">
+            <input class="submit" type="submit" value = "Отправить">
+            <input class="reset" type="reset" value = "Отмена">
+        </div>
+       </form>
+   </div> 
+</body>
+</html>
